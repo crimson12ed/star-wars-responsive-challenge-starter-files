@@ -1,0 +1,46 @@
+
+/**
+* Header
+*/
+header, main {
+	width: 100%;
+}
+
+header {
+	position: fixed;
+	background-color: #EFBC44;
+	z-index: 1;
+}
+
+.heading {
+	margin: 0.5em 0 0.25em 0;
+}
+
+.sub-heading {
+	margin: 0.25em 0 1em 0;
+}
+
+/**
+ * Content
+ */
+main {
+	position: absolute;
+	margin-top: 8em;
+}
+
+main .col-4 {
+	margin-bottom: 1.25em;
+}
+
+.panel {
+	border: 1px solid LightGray;
+	height: 100%;
+}
+
+.panel img {
+	width: 100%;
+}
+
+.panel .description {
+	padding: 1.5em 1em;
+}
